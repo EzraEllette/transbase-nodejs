@@ -38,7 +38,7 @@ function checkVersion(dir) {
 }
 
 function getPlatform() {
-  const arch = process.arch = "x86_64";
+  const arch = "x86_64";
   switch (process.platform) {
     case "win32":
       return { platform: "windows", arch };
